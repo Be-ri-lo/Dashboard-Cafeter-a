@@ -1,0 +1,14 @@
+<h1>COFFE_SHOP DASHBOARD</h1>
+<%= column_chart @sales_last_12_months %>
+<%= column_chart @q_sales_last_12_months %>
+<%= column_chart @sales_avg_last_12_months %>
+<h1>SALES BY ORIGIN</h1>
+<%= pie_chart @sales_by_origin_last_12_months %>
+<%= pie_chart @sales_by_origin_last_6_months %>
+<%= pie_chart @sales_by_origin_last_3_months %>
+<%= pie_chart @sales_by_origin_last_month %>
+<h1>SALES BY BLEND</h1>
+<%= pie_chart @sales_by_blend_12_months %>
+<%= pie_chart @sales_by_blend_6_months %>
+<%= pie_chart @sales_by_blend_3_months %>
+<%= pie_chart @sales_by_blend_month %>

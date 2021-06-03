@@ -1,0 +1,8 @@
+{
+  "name": "coffee_shop",
+  "private": true,
+  "dependencies": {
+    "highcharts": "^9.1.0",
+    "jquery": "^3.6.0"
+  }
+}
